@@ -1,0 +1,10 @@
+numpy<2
+pandas
+scikit-learn
+matplotlib
+pyyaml
+torch
+fastapi
+uvicorn
+pydantic
+pytest

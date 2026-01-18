@@ -1,0 +1,21 @@
+paths:
+  features_csv: "C:/Users/aryuemaan/Videos/Projects/stress316l_flow_model/data/raw/features.csv"
+  labels_csv: "C:/Users/aryuemaan/Videos/Projects/stress316l_flow_model/data/raw/labels.csv"
+  xy_initial_csv: "C:/Users/aryuemaan/Videos/Projects/stress316l_flow_model/data/raw/x_y_initial.csv"
+  artifacts_dir: "C:/Users/aryuemaan/Videos/Projects/stress316l_flow_model/artifacts"
+
+train:
+  seed: 42
+  n_splits: 4
+  epochs: 250
+  batch_size: 1024
+  lr: 0.002
+  weight_decay: 0.0001
+
+physics:
+  w_monotonic: 0.20
+  w_smoothness: 0.02
+
+model:
+  hidden_dim: 256
+  dropout: 0.10
